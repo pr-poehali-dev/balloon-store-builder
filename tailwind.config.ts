@@ -114,8 +114,8 @@ export default {
 				'float': 'float 3s ease-in-out infinite'
 			},
 			fontFamily: {
-				'heading': ['Montserrat', 'sans-serif'],
-				'body': ['Roboto', 'sans-serif']
+				'heading': ['Calypso', 'serif'],
+				'body': ['Poiret One', 'sans-serif']
 			}
 		}
 	},
