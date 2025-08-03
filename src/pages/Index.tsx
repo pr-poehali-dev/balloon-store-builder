@@ -143,7 +143,7 @@ const Index = () => {
             <a href="#features" className="text-foreground hover:text-primary transition-colors">Возможности</a>
             <a href="#pricing" className="text-foreground hover:text-primary transition-colors">Цены</a>
             <Button variant="outline" className="mr-2">Войти</Button>
-            <Button>Создать сайт</Button>
+            <Button onClick={() => window.location.href = '/builder'}>Создать сайт</Button>
           </nav>
 
           {/* Mobile menu */}
@@ -160,7 +160,7 @@ const Index = () => {
                 <a href="#pricing" className="text-lg font-medium">Цены</a>
                 <div className="flex flex-col space-y-3 pt-4">
                   <Button variant="outline">Войти</Button>
-                  <Button>Создать сайт</Button>
+                  <Button onClick={() => window.location.href = '/builder'}>Создать сайт</Button>
                 </div>
               </div>
             </SheetContent>
@@ -180,7 +180,7 @@ const Index = () => {
             Запустите свой бизнес за 15 минут без знания программирования.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center animate-scale-in">
-            <Button size="lg" className="px-8 py-3 text-lg">
+            <Button size="lg" className="px-8 py-3 text-lg" onClick={() => window.location.href = '/builder'}>
               <Icon name="Rocket" size={20} className="mr-2" />
               Начать создание
             </Button>
@@ -246,7 +246,7 @@ const Index = () => {
 
           {selectedTemplate && (
             <div className="text-center mt-12 animate-fade-in">
-              <Button size="lg" className="px-12 py-4 text-lg">
+              <Button size="lg" className="px-12 py-4 text-lg" onClick={() => window.location.href = '/builder'}>
                 <Icon name="Edit" size={20} className="mr-2" />
                 Редактировать в конструкторе
               </Button>
@@ -323,7 +323,7 @@ const Index = () => {
                 </div>
               </div>
 
-              <Button size="lg" className="px-8 py-3">
+              <Button size="lg" className="px-8 py-3" onClick={() => window.location.href = '/builder'}>
                 <Icon name="MousePointer" size={20} className="mr-2" />
                 Попробовать конструктор
               </Button>
@@ -354,7 +354,7 @@ const Index = () => {
             Присоединяйтесь к тысячам предпринимателей, которые уже продают с нашей платформой
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
-            <Button size="lg" variant="secondary" className="px-12 py-4 text-lg">
+            <Button size="lg" variant="secondary" className="px-12 py-4 text-lg" onClick={() => window.location.href = '/builder'}>
               Создать сайт бесплатно
             </Button>
             <Button size="lg" variant="outline" className="px-8 py-4 text-lg border-primary-foreground text-primary-foreground hover:bg-primary-foreground hover:text-primary">
